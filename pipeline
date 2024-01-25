@@ -1,0 +1,26 @@
+pipeline{
+	agent any
+		
+	Stages{
+    		stage("checkout") {
+			//git checkout
+		}
+		stage("build") {
+			//mvn clean package 
+			
+			//donet build
+				
+			//npm build
+		}
+		stage("test") {
+			//mvn test
+		}
+		stage("scan"){
+
+		}
+		stage("Artifactory") {
+			//mvn build
+		}
+		}	
+
+}
